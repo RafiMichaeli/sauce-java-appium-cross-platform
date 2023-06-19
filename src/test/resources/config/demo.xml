@@ -6,7 +6,7 @@
 		<parameter name="deviceName" value="iPhone.*"></parameter>
 		<parameter name="platformVersion" value="1[5-6].*"></parameter>
 		<parameter name="appiumVersion" value="2.0.0"></parameter>
-		<parameter name="app" value="SauceLabs-Demo-App.ipa"></parameter>
+		<parameter name="app" value="SauceLabs-Demo-App-Runner.XCUITest"></parameter>
 
 		<classes>
 			<class name="sauce.demo.tests.ios.DemoAppTest"/>
