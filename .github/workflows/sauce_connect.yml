@@ -1,2 +1,0 @@
-- name: Sauce Connect Proxy Action
-  uses: saucelabs/sauce-connect-action@v2.3.2
