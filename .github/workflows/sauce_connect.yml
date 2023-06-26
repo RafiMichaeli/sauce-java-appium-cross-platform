@@ -1,17 +1,2 @@
-# This will run a sauce connect proxy 
-name: Sauce connect proxy
-
-jobs:
-    test:
-        runs-on: ubuntu-latest
-        name: Action Test
-        steps:
-            # ...
-            - uses: actions/checkout@v3  # reference files in the current repository
-            - uses: saucelabs/sauce-connect-action@v2
-              with:
-                  username: ${{ secrets.SAUCE_USERNAME }}
-                  accessKey: ${{ secrets.SAUCE_ACCESS_KEY }}
-                  tunnelName: github-action-tunnel
-                  configFile: ${{ github.workspace }}/sc-configuration/config.yaml
-            # ...
+- name: Sauce Connect Proxy Action
+  uses: saucelabs/sauce-connect-action@v2.3.2
