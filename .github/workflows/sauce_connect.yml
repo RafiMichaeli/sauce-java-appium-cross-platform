@@ -1,3 +1,6 @@
+# This will run a sauce connect proxy 
+name: Sauce connect proxy
+
 jobs:
     test:
         runs-on: ubuntu-latest
